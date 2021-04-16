@@ -69,6 +69,12 @@ h1 a {
 }
 
 h2 {
+  font-size: 3rem;
+  color: #e8dedc;
+  text-align: center;
+}
+
+h3 {
   font-size: 2rem;
   color: #e8dedc;
   text-align: center;
@@ -92,13 +98,17 @@ h2 {
 
 .hobby {
   margin-left: 30px;
-  display: flex;
-  justify-content: center;
 }
 
 .about .hobby img {
   width: 250px;
   height: 150px;
   border-radius: 50%;
-  margin-top: 10px;
+  margin: 10px 15px;
+}
+
+.about .hobby p {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
 }
